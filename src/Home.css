@@ -1,0 +1,160 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.c-div{
+    width: 98%;
+}
+.top{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.top-logo{
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    
+}
+.middle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.m-left{
+    width: 30%;
+}
+.m-right{
+    width: 50%;
+}
+.m-l-img{
+    width:100%;
+    max-width: 400px;
+    height: auto;
+    
+}
+.m-r-m-img{
+    margin-bottom: 5px;
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+}
+.m-r-top h4{
+    margin-bottom: 15px;
+    
+}
+.m-r-top div{
+    margin-left: 30px;
+    margin-bottom: 5px;
+    
+}
+.m-r-top ul{
+    list-style-position: outside;
+}
+.m-r-top li{
+    font-weight: 500;
+    list-style-type: disc;   
+}
+
+.m-r-bottom p{
+    font-weight: 500;
+}
+.middle2{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.middle2 h4{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.middle2 img{
+    width: 100%;
+    max-width: 1100px;
+    height: auto;
+    
+}
+.middle2 p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bolder;
+}
+
+.border{
+    border-bottom: 3px solid #ec3237; 
+    margin-bottom: 10px;
+    width: 98%;
+    text-align: center  ;
+}
+.middle3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.middle3 h4{
+    margin-bottom: 10px;
+}
+.middle3 p{
+    width: 90%;
+    font-weight: 500;
+}
+.bottom{
+    background-color: #ec3237;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.bottom span{
+    color: #ffffff;
+    margin-left: 3px;
+}
+.bottom span:nth-child(1){
+    background-color: white;
+    color: red;
+    padding: 4px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 20px;
+}
+.icon{
+    color: white;
+    font-size: 30px;
+}
+@media  only screen and (max-width:720px) {
+    .m-left{
+        display: flex;
+        justify-content: center;
+    }
+    .m-right{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       width: 100%;
+    }
+    .middle{
+        flex-direction: column;
+       
+        
+    }
+      
+    .bottom{
+        flex-direction: column;
+        height: 150px;
+    }
+    .bottom div{
+        margin-top: 15px;
+    }
+}
